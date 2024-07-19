@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.sakshi1{
+    font-style: oblique;
+    font-family: cursive;
+    font-size: large;
+    color: rgb(84, 27, 27);
+
+}
+.class1{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #965b5b;
+    
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+ nav ul li a:hover{
+    color: #ef0f0f;
+ }
+ .class{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+ }
+ .class2{
+    margin: 8%;
+    margin-top: 15%;
+ }
+.class2 h1{
+    font-size: 50px;
+    color: black;
+    margin-bottom: 20px;
+}
+span{
+    color: bisque;
+
+}
+.class2 p{
+    color: rgb(0, 0, 0);
+    line-height: 25px;
+    font-size: large;
+
+}
+.class2 a{
+    background: rgba(0, 0, 0, 0.744);
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: aliceblue;
+    display: inline-block;
+    margin: 30px 5px;  
+}
+
+.image{ 
+    position: absolute;
+    right: 100px;
+    margin: 60px;
+    padding: 50px;
+    bottom: 0%;
+    border-radius: 60px;     
+}
+.image{
+    img:hover {
+        box-shadow: 0 0 6px 6px rgba(41, 51, 55, 0.5);
+      }
+            
+}
